@@ -1,5 +1,4 @@
-# Ex03 Time Table
-## Date:
+# Ex04 Time Table
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,154 +23,129 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-```
-</body>
-</html>
-
+```html
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Document</title>
-
+    <title>Course Schedule</title>
 </head>
-
-<body>
-
-    <center><h4>SLOT TIME TABLE - KARTHIK I (24010766)</TABLE></h4></center>
-    
-    <center><table border="5"</center>
-
-        <caption></caption>
-
-        <tr>
-
-            <th bgcolor="yellow">DAY/TIME</th>
-
-            <th bgcolor="yellow">MONDAY</th>
-
-            <th bgcolor="yellow">TUESDAY</th>
-
-            <th bgcolor="yellow">WEDNESDAY</th>
-
-            <th bgcolor="yellow">THURSDAY</th>
-
-            <th bgcolor="yellow">FRIDAY</th>
-
+<body bgcolor="6499E9">
+    <center>
+        <img src="logo.png" height="90" width="800">
+    </center>
+    <br>
+    <table align="center" width="800" cellspacing="2" cellpadding="4" border="5" bgcolor= "6499E9">
+    <caption><b>SLOT TIMETABLE - Roopak C S (212223220088)</b></caption>
+        <tr align="center">
+            <th bgcolor="9EDDFF">Day/Time</th>
+            <th bgcolor="9EDDFF">Monday</th>
+            <th bgcolor="9EDDFF">Tuesday</th>
+            <th bgcolor="9EDDFF">Wednesday</th>
+            <th bgcolor="9EDDFF">Thursday</th>
+            <th bgcolor="9EDDFF">Friday</th>
+            <th bgcolor="9EDDFF">Saturday</th>
         </tr>
-
-        <tr>
-
-            <td bgcolor="yellow">8 - 10</td>
-
-            <td bgcolor="skyblue" colspan="3" style="text-align:center;">FREE SLOT</td>
-
-            <td bgcolor="skyblue">PHY</td>
-
-            <td bgcolor="skyblue">CHE</td>
-
+        <tr align="center">
+            <th bgcolor="9EDDFF">08:00 - 10:00</th>
+            <td bgcolor="A6F6FF">Logic and Combinatorics</td>
+            <td bgcolor="A6F6FF">Computer Newtworks</td>
+            <td bgcolor="A6F6FF">Fundamentals of Web Application Development</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
         </tr>
-
-        <tr>
-
-            <td bgcolor="yellow">10 - 12</td>
-
-            <td bgcolor="skyblue">GER</td>
-
-            <td bgcolor="skyblue">FREE SLOT</td>
-
-            <td bgcolor="skyblue">FWAD</td>
-
-            <td bgcolor="skyblue">FWAD</td>
-
-            <td bgcolor="skyblue">CHY</td>
-
+        <tr align="center">
+            <th bgcolor="9EDDFF">10:00 - 12:00</th>
+            <td bgcolor="A6F6FF">Introduction to Machine Learning</td>
+            <td bgcolor="A6F6FF">Generative AI Application Development</td>
+            <td bgcolor="A6F6FF">Quantative Ability I</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Compiler Design</td>
         </tr>
-
-        <tr>
-
-            <td bgcolor="yellow">12 - 1</td>
-            <td bgcolor="skyblue" colspan="6" style="text-align: center;">lunch break</td>
+        <tr align="center">
+            <th bgcolor="9EDDFF">12:00 - 01:00</th>
+            <td bgcolor="BEFFF7" colspan=6 align="center">L U N C H</td>
+            
         </tr>
-        <tr>
-
-            <td bgcolor="yellow">1 - 3</td>
-
-            <td bgcolor="skyblue" colspan="2" style="text-align: center;">FREE SLOT</td>
-
-            <td bgcolor="skyblue">MAT</td>
-
-            <td bgcolor="skyblue">MAT</td>
-
-            <td bgcolor="skyblue">SS</td>
-
+        <tr align="center">
+            <th bgcolor="9EDDFF">01:00 - 03:00</th>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Compiler Design</td>
+            <td bgcolor="A6F6FF">Mentor Meet</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Introduction to Machine Learning</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
         </tr>
-
-        <tr>
-
-            <td bgcolor="yellow">3 - 5</td>
-
-            <td bgcolor="skyblue" colspan="2" style="text-align: center;">FREE SLOT</td>
-
-            <td bgcolor="skyblue">GER</td>
-
-            <td bgcolor="skyblue">CHE</td>
-
-            <td bgcolor="skyblue">FWAD</td>
-
+        <tr align="center">
+            <th bgcolor="9EDDFF">03:00 - 05:00</th>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Computer Networks</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Free Slot</td>
+            <td bgcolor="A6F6FF">Logic and Combinatorics</td>
         </tr>
-       </table> <br><br>
-    
-    <table border="1">
-      <tr>
-        <th>S. No.</th>
-        <th>Subject Code</th>
-        <th>Subject Name</th>
-      </tr>
-      <tr>
-        <td>1.</td>
-        <td>19A1414</td>
-        <td>Fundamentals of Web Application Development (FWAD)</td>
-      </tr>
-      <tr>
-        <td>2.</td>
-        <td>19EN612</td>
-        <td>German Basic (GER)</td>
-      </tr>
-      <tr>
-        <td>3.</td>
-        <td>19PH206</td>
-        <td>Physics for Information Technology (PHY)</td>
-      </tr>
-      <tr>
-        <td>4.</td>
-        <td>19CY205</td>
-        <td>Principles of Chemistry in Engineering (CHE)</td>
-      </tr>
-      <tr>
-        <td>5.</td>
-        <td>19MA201</td>
-        <td>Calculus and Matrix Algebra (MAT)</td>
-      </tr>
-      <tr>
-        <td>6.</td>
-        <td>19EY701</td>
-        <td>Soft Skills (SS)</td>
-      </tr>
     </table>
-    
+    <br>
+    <table align="center" cellspacing="2" cellpadding="4" border="2">
+        <tr>
+            <th bgcolor="9EDDFF">S.No</th>
+            <th bgcolor="9EDDFF">Subject Name</th>
+            <th bgcolor="9EDDFF">Subject Code</th>
+        </tr>
+        <tr>
+            <td bgcolor="9EDDFF" align="center">1.</td>
+            <td bgcolor="A6F6FF" align="center">19AI410</td>
+            <td bgcolor="A6F6FF">Introduction to Machine Learning</td>
+        </tr>
+        <tr>
+            <td bgcolor="9EDDFF" align="center">2.</td>
+            <td bgcolor="A6F6FF" align="center">19AI414</td>
+            <td bgcolor="A6F6FF">Fundamentals of Web Application Development</td>
+        </tr>
+        <tr>
+            <td bgcolor="9EDDFF" align="center">3.</td>
+            <td bgcolor="A6F6FF" align="center">19AI406</td>
+            <td bgcolor="A6F6FF" >Computer Networks</td>
+        </tr>
+        <tr>
+            <td bgcolor="9EDDFF" align="center">4.</td>
+            <td bgcolor="A6F6FF" align="center">19AI409</td>
+            <td bgcolor="A6F6FF">Compiler Design</td>
+        </tr>
+        <tr>
+            <td bgcolor="9EDDFF" align="center">5.</td>
+            <td bgcolor="A6F6FF" align="center">19CS579</td>
+            <td bgcolor="A6F6FF">Generative AI Application Development</td>
+        </tr>
+        <tr>
+            <td bgcolor="9EDDFF" align="center">6.</td>
+            <td bgcolor="A6F6FF" align="center">19EY710</td>
+            <td bgcolor="A6F6FF">Quantative Ability I</td>
+        </tr>
+        <tr>
+            <td bgcolor="9EDDFF" align="center">7.</td>
+            <td bgcolor="A6F6FF" align="center">19MA206</td>
+            <td bgcolor="A6F6FF">Logic and Combinatorics</td>
+        </tr>
+        <tr>
+            <td bgcolor="9EDDFF" align="center">8.</td>
+            <td bgcolor="A6F6FF" align="center">19AI305</td>
+            <td bgcolor="A6F6FF">Advanced C Programming</td>
+        </tr>
+        <tr>
+            <td bgcolor="9EDDFF"align="center">9.</td>
+            <td bgcolor="A6F6FF" align="center">ECA-M</td>
+            <td bgcolor="A6F6FF">Mentor Meet</td>
+        </tr>
+    </table>
 </body>
-
 </html>
 ```
-
 ## OUTPUT
-![Screenshot 2025-03-12 114307](https://github.com/user-attachments/assets/c361f1c2-686f-43f0-857d-500081528ffc)
-
+![alt text](output.png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
